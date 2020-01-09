@@ -1,0 +1,14 @@
+[Desktop Entry]
+_Name=Main Menu
+_Comment=Change which applications are shown on the main menu
+Exec=alacarte
+Terminal=false
+Type=Application
+StartupNotify=false
+Categories=GNOME;Settings;DesktopSettings;
+NotShowIn=KDE;
+Icon=alacarte
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=alacarte
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=@VERSION@

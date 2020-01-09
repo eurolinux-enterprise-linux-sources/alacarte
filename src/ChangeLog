@@ -1,0 +1,292 @@
+commit 0daf1d6addb692dc43076077e35e6ca78484151c
+Author: Cosimo Cecchi <cosimoc@gnome.org>
+Date:   2009-09-21
+
+    Prepare for 0.12.4 release.
+
+M	NEWS
+
+commit 657ab0fd19e7f267a188e14fbe028176aaacce9b
+Author: Niels-Christoph Fiedler <linux@medienkompanie.de>
+Date:	2009-09-16
+
+    Updated German translation
+
+M	po/nds.po
+
+commit 34dfdca0b4fe129956355e8f775f406d62a42da4
+Author: Erdal Ronahi <erdal.ronahi@gmail.com>
+Date:	2009-09-15
+
+    Updated Kurdish translation
+
+M	po/ku.po
+
+commit e5c70d103f07be0bbc8f18b0c0ccb32fe1df334a
+Author: Rajesh Ranjan <rranjan@rranjan.csb>
+Date:	2009-09-11
+
+    maithili added
+
+M	po/LINGUAS
+A	po/mai.po
+
+commit 39ae6cb9a658f5965331668772a356323ad0016b
+Author: Rajesh Ranjan <rranjan@rranjan.csb>
+Date:	2009-09-11
+
+    hindi update by Rajesh Ranjan
+
+M	po/hi.po
+
+commit d76145d44847f0923ef1acd19b3a609f61f467f2
+Author: Cosimo Cecchi <cosimoc@gnome.org>
+Date:	2009-09-08
+
+    Post release version bump
+
+M	README
+M	configure.ac
+
+commit 25e5ae1d7372383e63824b6d66ae3c8bd32430b8
+Author: Cosimo Cecchi <cosimoc@gnome.org>
+Date:	2009-09-08
+
+    Update NEWS for 0.12.3
+
+M	NEWS
+
+commit 3554a17989e83873476c9941851c75de8c437195
+Author: Cosimo Cecchi <cosimoc@gnome.org>
+Date:	2009-09-08
+
+    Set the translation domain to GtkBuilder
+
+M	Alacarte/MainWindow.py
+M	Alacarte/Makefile.am
+M	Alacarte/config.py.in
+
+commit 2cb45302494a7da05fb1f52a64e3e8723cfc561b
+Author: Cosimo Cecchi <cosimoc@gnome.org>
+Date:	2009-09-08
+
+    Post release version bump
+
+M	README
+M	configure.ac
+
+commit e660ce7a0a07da2c783e403bca16d11807f89ee9
+Author: Cosimo Cecchi <cosimoc@gnome.org>
+Date:	2009-09-08
+
+    Update NEWS and README for 0.12.2
+
+M	NEWS
+M	README
+
+commit 8f40679b2237b7f8a2d3aae36ccc832a502614eb
+Author: Cosimo Cecchi <cosimoc@gnome.org>
+Date:	2009-09-08
+
+    Generate config.h
+
+M	configure.ac
+
+commit 1a21a0a5b36b0402b284f364a5e759a3e01a4c76
+Author: Vincent Untz <vuntz@gnome.org>
+Date:	2009-09-08
+
+    Use display name instead of name for menu items
+
+    This enables us to display the X-GNOME-FullName key instead of
+    the Name
+    key when available.
+
+    This change requires gnome-menus 2.27.92.
+
+    http://bugzilla.gnome.org/show_bug.cgi?id=594443
+
+M	Alacarte/MainWindow.py
+M	Alacarte/MenuEditor.py
+M	configure.ac
+
+commit e8d0dadcf57a145a9673b0bde7e9ff1062b90886
+Author: Rodrigo L. M. Flores <rlmflores@src.gnome.org>
+Date:	2009-08-30
+
+    Updated Brazilian Portuguese mailing list address.
+
+M	po/pt_BR.po
+
+commit dff9e797bcb4ffbf4f27b6b867b636db226b30d9
+Author: Andre Klapper <a9016009@gmx.de>
+Date:	2009-08-24
+
+    Remove obsolete nds_NFE translation
+
+D	po/nds_NFE.po
+
+commit 1620c40fef4e78e7b7707bd0fda3e6f9a1859df9
+Author: Andre Klapper <a9016009@gmx.de>
+Date:	2009-08-24
+
+    Change nds_NFE to nds as discussed on irc
+
+M	po/LINGUAS
+A	po/nds.po
+
+commit a126e864212fe9876e2f46cd1377ecd2a6e30964
+Author: Denis Arnaud <darnaud@src.gnome.org>
+Date:	2009-08-23
+
+    Updated breton translation
+
+A	po/br.po
+
+commit 2dab42203435559094e180020843fe7f34f2e2d9
+Author: Denis Arnaud <darnaud@src.gnome.org>
+Date:	2009-08-21
+
+    Added br in LINGUAS file
+
+M	po/LINGUAS
+
+commit 41898e14a66b4adf6e5d634582cf7a0b24f25975
+Author: Nils-Christoph Fiedler <linux@medienkompanie.de>
+Date:	2009-08-22
+
+    Added Low German translation
+
+M	po/LINGUAS
+A	po/nds_NFE.po
+
+commit 96127ca05ff47477fd4fe503f69c940bf41622d6
+Author: Frédéric Péters <fpeters@0d.be>
+Date:	2009-08-22
+
+    Remove obsolete Encoding key from desktop file
+
+M	data/alacarte.desktop.in.in
+
+commit 3ae66dd2600c42f05a4f5c7d72ac33dcd842f5b1
+Author: Carles Ferrando <carles.ferrando@gmail.com>
+Date:	2009-08-09
+
+    Added Catalan (Valencian) translation
+
+M	po/LINGUAS
+A	po/ca@valencia.po
+
+commit 12086bd6d1de89d61ba78b8b03b530bb7ab4ab35
+Author: Iestyn Pryce <dylunio@gmail.com>
+Date:	2009-07-31
+
+    Added Welsh (cy) translation.
+
+M	po/LINGUAS
+A	po/cy.po
+
+commit c7405b2aa6d59a537b91268082a4f9fde98e31e7
+Author: Jamil Ahmed <itsjamil@gmail.com>
+Date:	2009-07-28
+
+    Updated Bengali translation
+
+M	po/bn.po
+
+commit a4f373dc03c84f2f29cdb923bab1cca68fb8921f
+Author: Jorge González <jorgegonz@svn.gnome.org>
+Date:	2009-07-07
+
+    Updated Spanish translation
+
+M	po/es.po
+
+commit 219a6a3400579863c2a280d00571f282efd7956d
+Author: Daniel Nylander <po@danielnylander.se>
+Date:	2009-07-07
+
+    Updated Swedish translation
+
+M	po/sv.po
+
+commit f047b36efc90d24dffa175d590a93d4e898da6bd
+Author: Bùi Xuân Dương <buixuanduong1983@gmail.com>
+Date:	2009-06-22
+
+    po/vi.po: updated Vietnamese translation
+
+M	po/vi.po
+
+commit 8638504e7a7807afc64c0cf79b84b2df1b2d3208
+Author: Bùi Xuân Dương <buixuanduong1983@gmail.com>
+Date:	2009-06-22
+
+    po/vi.po: updated Vietnamese translation
+
+M	po/vi.po
+
+commit c341fcc6741cbe05a0a4b609251bd4b53ac9af39
+Author: Cosimo Cecchi <cosimoc@gnome.org>
+Date:	2009-05-04
+
+    post release bump to 0.12.2
+
+M	configure.ac
+
+commit 64964e5e68e707576ab347f74565e5b997d1a43c
+Author: Cosimo Cecchi <cosimoc@gnome.org>
+Date:	2009-05-04
+
+    Forgot to update NEWS and README
+
+M	NEWS
+M	README
+
+commit e794fefdd0ff5f65c3c84c69a069f65d73492100
+Author: Cosimo Cecchi <cosimoc@gnome.org>
+Date:	2009-05-04
+
+    post release bump to 0.12.1
+
+M	configure.ac
+
+commit 7dffab1b68fcd57594d344dddc10d46001fe7f66
+Author: Cosimo Cecchi <cosimoc@gnome.org>
+Date:	2009-05-04
+
+    Remove the ChangeLog file in distclean
+
+M	Makefile.am
+
+commit 6f31ba0005252505b8adba413734af889ebdd2d6
+Author: Cosimo Cecchi <cosimoc@gnome.org>
+Date:	2009-05-04
+
+    Drop libglade dependency
+
+    Use GtkBuilder instead of Glade.
+    Patch by Andreu Correa Casablanca (#577911).
+
+M	Alacarte/MainWindow.py
+M	data/Makefile.am
+D	data/alacarte.glade
+A	data/alacarte.ui
+M	po/POTFILES.in
+
+commit 156cd7f59a3ef413423cbb0cd72f2ccc72f3b1ea
+Author: Cosimo Cecchi <cosimoc@gnome.org>
+Date:	2009-05-04
+
+    Generate the ChangeLog from git log
+
+R100	ChangeLog	ChangeLog.pre-git
+M	Makefile.am
+
+commit a4a5e46721bfa61c8fe7f2462e5b84501c68990e
+Author: Cosimo Cecchi <cosimoc@gnome.org>
+Date:	2009-05-04
+
+    Bump to 0.12.0
+
+M	configure.ac
